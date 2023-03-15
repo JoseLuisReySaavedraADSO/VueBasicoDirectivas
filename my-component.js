@@ -1,7 +1,11 @@
 export default{
     data(){
         return{
-            // Datos para vue
+            metas: [
+                'Aprender Vue.js',
+                'dormir 8hr',
+                'al menos 7:('
+            ]
         }
     }
 }

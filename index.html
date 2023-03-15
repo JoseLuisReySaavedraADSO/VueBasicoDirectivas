@@ -8,6 +8,13 @@
     <script src="app.js" type="module"></script>
 </head>
 <body>
-    <!-- html para usar sincronizado con vue -->
+    <div class="border border-primary rounded-bottom">
+        <h1>Metas 2023</h1>
+        <div id="app">
+            <ul>
+                <li v-for="meta in metas"> {{meta}} </li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
