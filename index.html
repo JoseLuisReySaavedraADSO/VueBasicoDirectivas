@@ -8,13 +8,12 @@
     <script src="app.js" type="module"></script>
 </head>
 <body>
-    <div class="border border-primary rounded-bottom">
-        <h1>Metas 2023</h1>
-        <div id="app">
-            <ul>
-                <li v-for="meta in metas"> {{meta}} </li>
-            </ul>
-        </div>
+    <div id="app">
+        <h1>v-text</h1>
+        <!-- agregada con los bigotes -->
+        <p>ya vamos {{mensaje}}</p>
+        <!-- agregada la clase, o lo que sea eso -->
+        <p v-text="mensaje"></p>
     </div>
 </body>
 </html>
