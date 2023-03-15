@@ -1,7 +1,7 @@
 export default{
     data(){
         return{
-            mensaje: "A mimir"
+            mensaje: "<h4>Hola, soy un v-html<br>no me crees? tocame con inspeccionar...</h4>"
         }
     }
 }
