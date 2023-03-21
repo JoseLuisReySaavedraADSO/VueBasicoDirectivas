@@ -1,7 +1,18 @@
 export default{
-    data(){
-        return{
-            mensaje: "Soy un v-model:3"
+    data() {
+        return {
+            selecion: null,
+          imagen:{
+            mario: 'img/mario.png',
+            luigi: 'img/luigi.png',
+            toad: 'img/toad.png',
+            peach: 'img/peach.png',
+          }
+        }
+    },
+    methods:{
+        cambio(e){
+            document.querySelector("#img").src = this.selecion;
         }
     }
 }
